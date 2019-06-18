@@ -1,20 +1,7 @@
 var NAVTREE =
 [
   [ "MFC:Pre_process", "index.html", [
-    [ "MFC documentation", "index.html", [
-      [ "Organization", "index.html#org", null ],
-      [ "Introduction", "index.html#intro_sec", null ],
-      [ "Installation", "index.html#install_sec", [
-        [ "Step 1: Configure and ensure dependencies can be located", "index.html#step1", null ],
-        [ "Step 2: Install/Build", "index.html#step2", null ]
-      ] ],
-      [ "License", "index.html#license_sec", null ],
-      [ "Useful documents", "index.html#documents_sec", [
-        [ "User's guide", "index.html#user", null ],
-        [ "MFC paper", "index.html#paper", null ],
-        [ "Related publications", "index.html#pub", null ]
-      ] ]
-    ] ],
+    [ "MFC documentation", "index.html", null ],
     [ "Pre_process", "^https://mfc-caltech.github.io/pre_process/index.html", null ],
     [ "Simulation", "^https://mfc-caltech.github.io/simulation/index.html", null ],
     [ "Post_process", "^https://mfc-caltech.github.io/post_process/index.html", null ],
@@ -48,7 +35,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"m__mpi__proxy_8f90.html#ad02d11c9b94b9354f7d8234937bb27a2"
+"m__start__up_8f90.html#a25daee88d75c57908efa6e3e0516fb28"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
