@@ -1,8 +1,8 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
-{text:"Pre_process",url:"https://bryngelson-research.com/pre_process/index.html"},
-{text:"Simulation",url:"https://bryngelson-research.com/simulation/index.html"},
-{text:"Post_process",url:"https://bryngelson-research.com/post_process/index.html"},
+{text:"Pre_process",url:"https://mfc-caltech.github.io/pre_process/index.html"},
+{text:"Simulation",url:"https://mfc-caltech.github.io/simulation/index.html"},
+{text:"Post_process",url:"https://mfc-caltech.github.io/post_process/index.html"},
 {text:"Modules",url:"namespaces.html",children:[
 {text:"Modules List",url:"namespaces.html"},
 {text:"Module Members",url:"namespacemembers.html",children:[

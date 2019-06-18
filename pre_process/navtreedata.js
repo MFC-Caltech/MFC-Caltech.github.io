@@ -15,9 +15,9 @@ var NAVTREE =
         [ "Related publications", "index.html#pub", null ]
       ] ]
     ] ],
-    [ "Pre_process", "^https://bryngelson-research.com/pre_process/index.html", null ],
-    [ "Simulation", "^https://bryngelson-research.com/simulation/index.html", null ],
-    [ "Post_process", "^https://bryngelson-research.com/post_process/index.html", null ],
+    [ "Pre_process", "^https://mfc-caltech.github.io/pre_process/index.html", null ],
+    [ "Simulation", "^https://mfc-caltech.github.io/simulation/index.html", null ],
+    [ "Post_process", "^https://mfc-caltech.github.io/post_process/index.html", null ],
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
       [ "Module Members", "namespacemembers.html", [
