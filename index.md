@@ -1,12 +1,11 @@
-  
-# Software documentation
+# Documentation
  
   The following codes are documented, please follow the links to see their Doxygen:
 * <a href="https://mfc-caltech.github.io/pre_process/index.html">Pre_process</a> 
 * <a href="https://mfc-caltech.github.io/simulation/index.html">Simulation</a> 
 * <a href="https://mfc-caltech.github.io/post_process/index.html">Post_process</a>
     
-# Introduction
+# Authors
  
   This is the documentation for the MFC.
   The MFC is a simulation software for multi-component, multi-phase,
@@ -57,7 +56,7 @@ If you do not have FFTW compiler, the library and
 `cd installers`  
 `./install_fftw.sh`  
  
-## Post process code dependency: Silo/HDF5
+### Post process code dependency: Silo/HDF5
  
   Post-processing of parallel data files is not required,
   but can indeed be handled with the MFC. For this, HDF5
@@ -97,7 +96,7 @@ If you do not have FFTW compiler, the library and
   You will then need to modify `silo_lib_dir` and `silo_include_dir` in
   `Makefile.user` to point to your silo directory.
  
-## Step 2: Install/Build
+## Step 2: Build and test
  
   Once all dependencies have been installed, the MFC can be built via
 `make`
@@ -133,7 +132,7 @@ If you do not have FFTW compiler, the library and
  
   A user's guide is included here:
  
-##  MFC paper
+## MFC paper
  
   The paper that describes the MFC's capabilities is located here:
   
