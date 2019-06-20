@@ -96,7 +96,7 @@ If you do not have FFTW compiler, the library and
   You will then need to modify `silo_lib_dir` and `silo_include_dir` in
   `Makefile.user` to point to your silo directory.
  
-### Step 2: Install/Build
+## Step 2: Install/Build
  
   Once all dependencies have been installed, the MFC can be built via
 `make`
