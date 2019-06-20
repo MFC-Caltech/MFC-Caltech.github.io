@@ -109,7 +109,7 @@
  
   Once this is completed, you can ensure that the software is working
   as intended by
-* make test
+`make test`
  
  
 # License
@@ -126,7 +126,7 @@
  
   Copyright 2019 California Institute of Technology
  
-  # documents_sec Useful documents
+# Useful documents
   
 ## User's guide
  
@@ -170,7 +170,8 @@
         V. Coralic and T. Colonius (2013) European Journal of Mechanics B-Fluids, Vol. 40, pp. 64-74 
         </a>
  
-  Ph.D. Disserations:
+ 
+Ph.D. Disserations:
 * <a href="https://thesis.library.caltech.edu/11007/">
         K. Maeda (2018) Ph.D. thesis, California Institute of Technology 
         </a>
@@ -181,8 +182,6 @@
         V. Coralic (2014) Ph.D. thesis, California Institute of Technology
         </a>
 
- 
- 
 # Acknowledgements
  
   The development of the MFC  was supported in part by multiple past grants from the US Office of 
