@@ -31,7 +31,7 @@
  
 ### Main dependencies: MPI and Python 
   If you do not have Python, it can be installed via
-  Homebrew on OSX (https://brew.sh/) as:  \
+  Homebrew on OSX (https://brew.sh/) as:  
 `brew install python`
  
   or compiled via your favorite package manager on Unix systems.
@@ -56,15 +56,15 @@ If you do not have FFTW compiler, the library and
 `cd installers`  
 `./install_fftw.sh`  
  
-## Post process code dependency: Silo/HDF5 ##
+## Post process code dependency: Silo/HDF5
  
   Post-processing of parallel data files is not required,
   but can indeed be handled with the MFC. For this, HDF5
   and Silo must be installed
  
   On OSX, a custom Homebrew tap for Silo is included in the installers
-  directory. You can use it via  \
-`cd installers`  \
+  directory. You can use it via  
+`cd installers`  
 `brew install silo.rb`
  
   This will install silo and its dependences (including HDF5)
@@ -75,22 +75,22 @@ If you do not have FFTW compiler, the library and
   from source. On CentOS (also Windows 7), HDF5
   binaries can be found at
       https://support.hdfgroup.org/ftp/HDF5/current18/bin/
-  Untar this archive in your intended location via  \
+  Untar this archive in your intended location via  
 `tar -zxf [your HDF5 archive]`
   
   Silo should be downloaded at
       https://wci.llnl.gov/simulation/computer-codes/silo/downloads
-  then  \
-`tar -zxf [your Silo archive]`  \
-`cd [your Silo archive]`  \
-`./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex`  \
-`make`  \
+  then  
+`tar -zxf [your Silo archive]`  
+`cd [your Silo archive]`  
+`./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex`  
+`make`  
 `make install`
  
-  Add the following line to your `~/.bash_profile`:  \
+  Add the following line to your `~/.bash_profile`:  
   `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/[your silo directory]/lib:/[your hdf5 directory]/lib`
  
-  Finally:  \
+  Finally:  
 `source ~/.bash_profile`
   
   You will then need to modify `silo_lib_dir` and `silo_include_dir` in
@@ -105,7 +105,7 @@ If you do not have FFTW compiler, the library and
   components can be built via
 `make [component]`
  
-  where [component] is one of "pre_process,simulation,post_process".
+  where [component] is one of `pre_process`, `simulation`, or `post_process`.
  
   Once this is completed, you can ensure that the software is working
   as intended by
