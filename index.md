@@ -19,12 +19,12 @@
 * Dr. Jomela Meng
 * Dr. Kazuki Maeda
  
-  and their contact information is located in the "AUTHORS" file in the source code.
+  and their contact information is located in the `AUTHORS` file in the source code.
  
 # Installation
  
   The documents that describe how to configure and install the MFC are located in the 
-  source code as "CONFIGURE" and "INSTALL". They are also described here.
+  source code as `CONFIGURE` and `INSTALL`. They are also described here.
  
 ## Step 1: Configure and ensure dependencies can be located
  
@@ -46,8 +46,8 @@
 ### Simulation code dependency: FFTW 
   If you already have FFTW compiled:
 * Specify the location of your FFTW library and
-      include files in Makefile.user (fftw_lib_dir and
-      fftw_include_dir)
+      include files in Makefile.user (`fftw_lib_dir` and
+      `fftw_include_dir`)
  
   If you do not have FFTW compiler, the library and
   installer are included in this package. Just:  \
@@ -61,13 +61,13 @@
   and Silo must be installed
  
   On OSX, a custom Homebrew tap for Silo is included in the installers
-  directory. You can use it via
+  directory. You can use it via  \
 `cd installers`  \
-`brew install silo.rb`  \
+`brew install silo.rb`
  
   This will install silo and its dependences (including HDF5)
-  in their usual locations (/usr/local/lib and
-  /usr/local/include)
+  in their usual locations (`/usr/local/lib` and
+  `/usr/local/include`)
  
   On Unix systems, you can install via a package manager or
   from source. On CentOS (also Windows 7), HDF5
@@ -85,14 +85,14 @@
 `make`  \
 `make install`
  
-  Add the following line to your `~/.bash_profile` :  \ 
+  Add the following line to your `~/.bash_profile`:  \
   `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/[your silo directory]/lib:/[your hdf5 directory]/lib`
  
   Finally:  \
 `source ~/.bash_profile`
   
-  You will then need to modify silo_lib_dir and silo_include_dir in
-  Makefile.user to point to your silo directory.
+  You will then need to modify `silo_lib_dir` and `silo_include_dir` in
+  `Makefile.user` to point to your silo directory.
  
 ### Step 2: Install/Build
  
