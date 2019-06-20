@@ -38,7 +38,7 @@
  
   An MPI fortran compiler is required for all systems.
   If you do not have one, Homebrew can take care of this
-  on OSX:  \
+  on OSX:  
 `brew install open-mpi`
  
   or compiled via another package manager on Unix systems.
@@ -52,8 +52,8 @@ If you already have FFTW compiled:
 
 
 If you do not have FFTW compiler, the library and
-  installer are included in this package. Just:  \
-`cd installers`  \
+  installer are included in this package. Just:  
+`cd installers`  
 `./install_fftw.sh`  
  
 ## Post process code dependency: Silo/HDF5 ##
