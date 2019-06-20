@@ -1,5 +1,5 @@
   
-# Organization
+# Software documentation
  
   The following codes are documented, please follow the links to see their Doxygen:
 * <a href="https://mfc-caltech.github.io/pre_process/index.html">Pre_process</a> 
