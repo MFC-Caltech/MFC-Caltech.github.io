@@ -17,8 +17,8 @@
 * Dr. Kevin Schmidmayer
 * Dr. Vedran Coralic
 * Dr. Jomela Meng
-* Dr. Kazuki Maeda
- 
+* Dr. Kazuki Maeda  
+
   and their contact information is located in the `AUTHORS` file in the source code.
  
 # Installation
