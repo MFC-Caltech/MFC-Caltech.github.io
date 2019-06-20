@@ -40,7 +40,7 @@
   An MPI fortran compiler is required for all systems.
   If you do not have one, Homebrew can take care of this
   on OSX:  
-`brew install open-mpi`
+`brew install open-mpi`  
  
   or compiled via another package manager on Unix systems.
  
@@ -66,7 +66,7 @@ If you do not have FFTW compiler, the library and
   On OSX, a custom Homebrew tap for Silo is included in the installers
   directory. You can use it via  
 `cd installers`  
-`brew install silo.rb`
+`brew install silo.rb`  
  
   This will install silo and its dependences (including HDF5)
   in their usual locations (`/usr/local/lib` and
@@ -77,7 +77,7 @@ If you do not have FFTW compiler, the library and
   binaries can be found at
       https://support.hdfgroup.org/ftp/HDF5/current18/bin/
   Untar this archive in your intended location via  
-`tar -zxf [your HDF5 archive]`
+`tar -zxf [your HDF5 archive]`  
   
   Silo should be downloaded at
       https://wci.llnl.gov/simulation/computer-codes/silo/downloads
@@ -86,13 +86,13 @@ If you do not have FFTW compiler, the library and
 `cd [your Silo archive]`  
 `./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex`  
 `make`  
-`make install`
+`make install`  
  
   Add the following line to your `~/.bash_profile`:  
   `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/[your silo directory]/lib:/[your hdf5 directory]/lib`
  
   Finally:  
-`source ~/.bash_profile`
+`source ~/.bash_profile`  
   
   You will then need to modify `silo_lib_dir` and `silo_include_dir` in
   `Makefile.user` to point to your silo directory.
@@ -103,14 +103,14 @@ If you do not have FFTW compiler, the library and
 `make`
  
   from the MFC directory. This will build all MFC components. Individual
-  components can be built via
-`make [component]`
+  components can be built via  
+`make [component]`  
  
-  where [component] is one of `pre_process`, `simulation`, or `post_process`.
+  where `[component]` is one of `pre_process`, `simulation`, or `post_process`.
  
   Once this is completed, you can ensure that the software is working
-  as intended by
-`make test`
+  as intended by  
+`make test`  
  
  
 # License
@@ -185,13 +185,11 @@ Ph.D. Disserations:
 
 # Acknowledgements
  
-  The development of the MFC  was supported in part by multiple past grants from the US Office of 
+The development of the MFC  was supported in part by multiple past grants from the US Office of 
 Naval Research (ONR), the US National Institute of 
 Health (NIH), and the US National Science Foundation (NSF), as well as current ONR grant numbers 
 N0014-17-1-2676 and N0014-18-1-2625 and NIH grant number 2P01-DK043881.
 The computations presented here utilized the Extreme Science
 and Engineering Discovery Environment, which is supported under NSF
-grant number CTS120005.
-K.M. acknowledges support from the Funai Foundation
+grant number CTS120005. K.M. acknowledges support from the Funai Foundation
 for Information Technology via the Overseas Scholarship.
-
