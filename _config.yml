@@ -4,4 +4,6 @@ description: High-fidelity multiphase flow simulation
 show_downloads: true
 github:
   zip_url: http://example.com/download.zip
-  tar_url: http://example.com/download.tar 
+  tar_url: http://example.com/download.tar
+  is_project_page: true
+  repository_url: https://github.com/ComputationalFlowPhysics/urlhere
