@@ -48,7 +48,7 @@
 If you already have FFTW compiled:
 * Specify the location of your FFTW library and
       include files in Makefile.user (`fftw_lib_dir` and
-      `fftw_include_dir`)  \
+      `fftw_include_dir`)  
 
 
 If you do not have FFTW compiler, the library and
