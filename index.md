@@ -3,7 +3,7 @@
   The following codes are documented, please follow the links to see their Doxygen:
   \arg <a href="https://mfc-caltech.github.io/pre_process/index.html">Pre_process</a> 
   \arg <a href="https://mfc-caltech.github.io/simulation/index.html">Simulation</a> 
-  \arg <a href="https://mfc-caltech.github.io/post_process/index.html">Post_process</a>
+\arg <a href="https://mfc-caltech.github.io/post_process/index.html">Post_process</a>
     
 # Introduction
  
@@ -13,11 +13,11 @@
   of post-doctoral scientists and graduate research students
   under the supervision of Professor Tim Colonius. These contributors 
   include:
-  \arg Dr. Spencer Bryngelson
-  \arg Dr. Kevin Schmidmayer
-  \arg Dr. Vedran Coralic
-  \arg Dr. Jomela Meng
-  \arg Dr. Kazuki Maeda
+* Dr. Spencer Bryngelson
+* Dr. Kevin Schmidmayer
+* Dr. Vedran Coralic
+* Dr. Jomela Meng
+* Dr. Kazuki Maeda
  
   and their contact information is located in the "AUTHORS" file in the source code.
  
@@ -32,27 +32,27 @@
 ### Main dependencies: MPI and Python 
   If you do not have Python, it can be installed via
   Homebrew on OSX (https://brew.sh/) as:
-    \arg brew install python
+* brew install python
  
   or compiled via your favorite package manager on Unix systems.
  
   An MPI fortran compiler is required for all systems.
   If you do not have one, Homebrew can take care of this
   on OSX:
-     \arg brew install open-mpi
+* brew install open-mpi
  
   or compiled via another package manager on Unix systems.
  
 ### Simulation code dependency: FFTW 
   If you already have FFTW compiled:
-      \arg Specify the location of your FFTW library and
+* Specify the location of your FFTW library and
       include files in Makefile.user (fftw_lib_dir and
       fftw_include_dir)
  
   If you do not have FFTW compiler, the library and
   installer are included in this package. Just:
-      \arg cd installers
-      \arg ./install_fftw.sh
+* cd installers
+* ./install_fftw.sh
  
 ## Post process code dependency: Silo/HDF5 ##
  
@@ -62,8 +62,8 @@
  
   On OSX, a custom Homebrew tap for Silo is included in the installers
   directory. You can use it via
-      \arg cd installers
-      \arg brew install silo.rb
+* cd installers
+* brew install silo.rb
  
   This will install silo and its dependences (including HDF5)
   in their usual locations (/usr/local/lib and
@@ -74,21 +74,21 @@
   binaries can be found at
       https://support.hdfgroup.org/ftp/HDF5/current18/bin/
   Untar this archive in your intended location via
-      \arg tar -zxf [your HDF5 archive]
+* tar -zxf [your HDF5 archive]
   
   Silo should be downloaded at
       https://wci.llnl.gov/simulation/computer-codes/silo/downloads
   then
-      \arg tar -zxf [your Silo archive]
-      \arg cd [your Silo archive]
-      \arg ./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex
-      \arg make
-      \arg make install
+* tar -zxf [your Silo archive]
+* cd [your Silo archive]
+* ./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex
+* make
+* make install
  
   Add the following line to your ~/.bash_profile : export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/[your silo directory]/lib:/[your hdf5 directory]/lib
  
   Finally:
-      \arg source ~/.bash_profile
+* source ~/.bash_profile
   
   You will then need to modify silo_lib_dir and silo_include_dir in
   Makefile.user to point to your silo directory.
@@ -96,17 +96,17 @@
 ### Step 2: Install/Build
  
   Once all dependencies have been installed, the MFC can be built via
-  	\arg make
+* make
  
   from the MFC directory. This will build all MFC components. Individual
   components can be built via
-  \arg make [component]
+* make [component]
  
   where [component] is one of "pre_process,simulation,post_process".
  
   Once this is completed, you can ensure that the software is working
   as intended by
-  	\arg make test
+* make test
  
  
 # License
@@ -139,42 +139,42 @@
   development. A partial list is included here.
  
   Refereed journal publications:
-  \arg <a href="https://arxiv.org/pdf/1903.08242.pdf">
+* <a href="https://arxiv.org/pdf/1903.08242.pdf">
         K. Schmidmayer, S. H. Bryngelson, T. Colonius (2019) under review, arXiv: 1903.08242
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/BryngelsonSchmidmayerColonius2019.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/BryngelsonSchmidmayerColonius2019.pdf">
         S. H. Bryngelson, K. Schmidmayer, T. Colonius (2019) International Journal of Multiphase Flow, Vol. 115, pp. 137-143  
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2019.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2019.pdf">
         K. Maeda and T. Colonius (2019) Journal of Fluid Mechanics, Vol. 862, pp. 1105-1134 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2018c.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2018c.pdf">
         K. Maeda and T. Colonius (2018) Journal of Computational Physics, Vol. 371, pp. 994-1017 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/MengColonius2018.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/MengColonius2018.pdf">
         J. C. Meng and T. Colonius (2018) Journal of Fluid Mechanics,  Vol. 835, pp. 1108-1135 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2017.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2017.pdf">
         K. Maeda and T. Colonius (2017) Wave Motion, Vol. 75, pp. 36-49 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/MengColonius2015.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/MengColonius2015.pdf">
         J. C. Meng and T. Colonius (2015) Shock Waves, Vol. 25(4), pp. 399-414 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2014.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2014.pdf">
         V. Coralic and T. Colonius (2014) Journal of Computational Physics, Vol. 274, pp. 95-121 
         </a>
-  \arg <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2013.pdf">
+* <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2013.pdf">
         V. Coralic and T. Colonius (2013) European Journal of Mechanics B-Fluids, Vol. 40, pp. 64-74 
         </a>
  
   Ph.D. Disserations:
-  \arg <a href="https://thesis.library.caltech.edu/11007/">
+* <a href="https://thesis.library.caltech.edu/11007/">
         K. Maeda (2018) Ph.D. thesis, California Institute of Technology 
         </a>
-  \arg <a href="https://thesis.library.caltech.edu/9764/">
+* <a href="https://thesis.library.caltech.edu/9764/">
         J. Meng (2016) Ph.D. thesis, California Institute of Technology
         </a>
-  \arg <a href="https://thesis.library.caltech.edu/8758/">
+* <a href="https://thesis.library.caltech.edu/8758/">
         V. Coralic (2014) Ph.D. thesis, California Institute of Technology
         </a>
 
