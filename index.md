@@ -44,12 +44,14 @@
   or compiled via another package manager on Unix systems.
  
 ### Simulation code dependency: FFTW 
-  If you already have FFTW compiled:
+
+If you already have FFTW compiled:
 * Specify the location of your FFTW library and
       include files in Makefile.user (`fftw_lib_dir` and
-      `fftw_include_dir`)
- 
-  If you do not have FFTW compiler, the library and
+      `fftw_include_dir`)  \
+
+
+If you do not have FFTW compiler, the library and
   installer are included in this package. Just:  \
 `cd installers`  \
 `./install_fftw.sh`  
@@ -78,7 +80,7 @@
   
   Silo should be downloaded at
       https://wci.llnl.gov/simulation/computer-codes/silo/downloads
-  then
+  then  \
 `tar -zxf [your Silo archive]`  \
 `cd [your Silo archive]`  \
 `./configure --prefix=[target installation directory] --enable-pythonmodule --enable-optimization --disable-hzip --disable-fpzip --enableportable-binary FC=mpif90 F77=mpif77 -with-hdf5=[your hdf5 directory]/include,/[your hdf5 directory]/lib --disable-silex`  \
