@@ -3,7 +3,7 @@ title: MFC
 description: High-fidelity multiphase flow simulation
 show_downloads: true
 github:
-  zip_url: http://example.com/download.zip
-  tar_url: http://example.com/download.tar
+  zip_url: https://github.com/ComputationalFlowPhysics/MFC-Caltech/archive/master.zip
+  tar_url: https://github.com/ComputationalFlowPhysics/MFC-Caltech/tarball/master
   is_project_page: true
-  repository_url: https://github.com/ComputationalFlowPhysics/urlhere
+  repository_url: https://github.com/ComputationalFlowPhysics/MFC-Caltech
