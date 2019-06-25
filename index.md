@@ -1,9 +1,9 @@
 # Documentation
  
   The following codes are documented, please follow the links to see their Doxygen:
-* <a href="https://mfc-caltech.github.io/pre_process/index.html">Pre_process</a> 
-* <a href="https://mfc-caltech.github.io/simulation/index.html">Simulation</a> 
-* <a href="https://mfc-caltech.github.io/post_process/index.html">Post_process</a>
+* <a href="https://mfc-caltech.github.io/pre_process/namespaces.html">Pre_process</a> 
+* <a href="https://mfc-caltech.github.io/simulation/namespaces.html">Simulation</a> 
+* <a href="https://mfc-caltech.github.io/post_process/namespaces.html">Post_process</a>
     
 # Authors
 
@@ -31,7 +31,7 @@
  
 ### Main dependencies: MPI and Python 
   If you do not have Python, it can be installed via
-  Homebrew on OSX (https://brew.sh/) as:  
+  <a href="https://brew.sh/">Homebrew on OSX</a> as:  
 `brew install python`
  
   or compiled via your favorite package manager on Unix systems.
@@ -73,13 +73,13 @@ If you do not have FFTW compiler, the library and
  
   On Unix systems, you can install via a package manager or
   from source. On CentOS (also Windows 7), HDF5
-  binaries can be found at
-      https://support.hdfgroup.org/ftp/HDF5/current18/bin/
+  binaries can be found <a href="https://support.hdfgroup.org/ftp/HDF5/current18/bin/">here.</a>
+  
   Untar this archive in your intended location via  
 `tar -zxf [your HDF5 archive]`  
   
-  Silo should be downloaded at
-      https://wci.llnl.gov/simulation/computer-codes/silo/downloads
+  Silo should be downloaded 
+  <a href="https://wci.llnl.gov/simulation/computer-codes/silo/downloads">here,</a>
   then  
 `tar -zxf [your Silo archive]`  
 `cd [your Silo archive]`  
@@ -118,7 +118,7 @@ If you do not have FFTW compiler, the library and
   the terms of the GNU General Public License, either version 3 
   of the License, or any later version. 
   A copy of the GNU General Public License is included with the MFC, and is
-  also located at http://www.gnu.org/licenses.
+  also located at <a href="http://www.gnu.org/licenses">http://www.gnu.org/licenses</a>.
  
   The MFC is distributed in the hope that it will be useful, 
   but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
@@ -130,11 +130,13 @@ If you do not have FFTW compiler, the library and
   
 ## User's guide
  
-  A user's guide is included here:
+  A user's guide is included 
+  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_user_guide.pdf">here.</a>
  
 ## MFC paper
  
-  The paper that describes the MFC's capabilities is located here:
+  The paper that describes the MFC's capabilities is located
+  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_paper.pdf">here.</a>
   
 ## Related publications
  
@@ -165,9 +167,6 @@ If you do not have FFTW compiler, the library and
         </a>
 * <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2014.pdf">
         V. Coralic and T. Colonius (2014) Journal of Computational Physics, Vol. 274, pp. 95-121 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2013.pdf">
-        V. Coralic and T. Colonius (2013) European Journal of Mechanics B-Fluids, Vol. 40, pp. 64-74 
         </a>
  
  
