@@ -1,10 +1,12 @@
 # Documentation
  
   The following codes are documented, please follow the links to see their Doxygen:
-* <a href="https://mfc-caltech.github.io/pre_process/namespaces.html">Pre_process</a> 
-* <a href="https://mfc-caltech.github.io/simulation/namespaces.html">Simulation</a> 
-* <a href="https://mfc-caltech.github.io/post_process/namespaces.html">Post_process</a>
-    
+<center>
+ <a href="https://mfc-caltech.github.io/pre_process/namespaces.html" class="markdown-button">Pre_process</a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://mfc-caltech.github.io/simulation/namespaces.html" class="markdown-button">Simulation</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://mfc-caltech.github.io/post_process/namespaces.html" class="markdown-button">Post_process</a>
+</center>
+
 # Authors
 
   This is the documentation for the MFC.
@@ -18,7 +20,6 @@
 * Dr. Vedran Coralic
 * Dr. Jomela Meng
 * Dr. Kazuki Maeda  
-
   and their contact information is located in the `AUTHORS` file in the source code.
  
 # Installation
