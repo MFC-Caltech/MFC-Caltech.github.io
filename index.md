@@ -1,11 +1,7 @@
-# Documentation
- 
-  The following codes are documented, please follow the links to see their Doxygen:
-<center>
- <a href="https://mfc-caltech.github.io/pre_process/namespaces.html" class="markdown-button">Pre_process</a> &nbsp;&nbsp;&nbsp;&nbsp;
- <a href="https://mfc-caltech.github.io/simulation/namespaces.html" class="markdown-button">Simulation</a>  &nbsp;&nbsp;&nbsp;&nbsp;
- <a href="https://mfc-caltech.github.io/post_process/namespaces.html" class="markdown-button">Post_process</a>
-</center>
+# Multi-component Flow Code (MFC)
+
+Welcome to the MFC! The MFC is a fully-documented parallel simulation software
+for multi-component, multi-phase, and bubbly flows.
 
 # Authors
 
@@ -22,6 +18,72 @@
 * Dr. Kazuki Maeda  
   and their contact information is located in the `AUTHORS` file in the source code.
  
+
+# Documentation
+ 
+  The following codes are documented, please follow the links to see their Doxygen:
+<center>
+ <a href="https://mfc-caltech.github.io/pre_process/namespaces.html" class="markdown-button">Pre_process</a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://mfc-caltech.github.io/simulation/namespaces.html" class="markdown-button">Simulation</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="https://mfc-caltech.github.io/post_process/namespaces.html" class="markdown-button">Post_process</a>
+</center>
+
+## User's guide
+ 
+  A user's guide is included 
+  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_user_guide.pdf">here.</a>
+ 
+## MFC paper
+ 
+  The paper that describes the MFC's capabilities is located
+  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_paper.pdf">here.</a>
+  
+## Related publications
+ 
+  Several publications have used the MFC in various stages of its 
+  development. A partial list is included here.
+ 
+  Refereed journal publications:
+* <a href="https://arxiv.org/pdf/1903.08242.pdf">
+        K. Schmidmayer, S. H. Bryngelson, T. Colonius (2019) under review, arXiv: 1903.08242
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/BryngelsonSchmidmayerColonius2019.pdf">
+        S. H. Bryngelson, K. Schmidmayer, T. Colonius (2019) International Journal of Multiphase Flow, Vol. 115, pp. 137-143  
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2019.pdf">
+        K. Maeda and T. Colonius (2019) Journal of Fluid Mechanics, Vol. 862, pp. 1105-1134 
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2018c.pdf">
+        K. Maeda and T. Colonius (2018) Journal of Computational Physics, Vol. 371, pp. 994-1017 
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/MengColonius2018.pdf">
+        J. C. Meng and T. Colonius (2018) Journal of Fluid Mechanics,  Vol. 835, pp. 1108-1135 
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2017.pdf">
+        K. Maeda and T. Colonius (2017) Wave Motion, Vol. 75, pp. 36-49 
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/MengColonius2015.pdf">
+        J. C. Meng and T. Colonius (2015) Shock Waves, Vol. 25(4), pp. 399-414 
+        </a>
+* <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2014.pdf">
+        V. Coralic and T. Colonius (2014) Journal of Computational Physics, Vol. 274, pp. 95-121 
+        </a>
+ 
+ 
+Ph.D. Disserations:
+* <a href="https://thesis.library.caltech.edu/11395/">
+        J.-C. Veilleux (2019) Ph.D. thesis, California Institute of Technology
+        </a>
+* <a href="https://thesis.library.caltech.edu/11007/">
+        K. Maeda (2018) Ph.D. thesis, California Institute of Technology 
+        </a>
+* <a href="https://thesis.library.caltech.edu/9764/">
+        J. Meng (2016) Ph.D. thesis, California Institute of Technology
+        </a>
+* <a href="https://thesis.library.caltech.edu/8758/">
+        V. Coralic (2014) Ph.D. thesis, California Institute of Technology
+        </a>
+
 # Installation
  
   The documents that describe how to configure and install the MFC are located in the 
@@ -113,6 +175,7 @@ If you do not have FFTW compiler, the library and
 `make test`  
  
  
+
 # License
  
   MFC is free software: you can redistribute it and/or modify it under 
@@ -126,64 +189,8 @@ If you do not have FFTW compiler, the library and
   FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  
   Copyright 2019 California Institute of Technology
- 
-# Useful documents
-  
-## User's guide
- 
-  A user's guide is included 
-  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_user_guide.pdf">here.</a>
- 
-## MFC paper
- 
-  The paper that describes the MFC's capabilities is located
-  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_paper.pdf">here.</a>
-  
-## Related publications
- 
-  Several publications have used the MFC in various stages of its 
-  development. A partial list is included here.
- 
-  Refereed journal publications:
-* <a href="https://arxiv.org/pdf/1903.08242.pdf">
-        K. Schmidmayer, S. H. Bryngelson, T. Colonius (2019) under review, arXiv: 1903.08242
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/BryngelsonSchmidmayerColonius2019.pdf">
-        S. H. Bryngelson, K. Schmidmayer, T. Colonius (2019) International Journal of Multiphase Flow, Vol. 115, pp. 137-143  
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2019.pdf">
-        K. Maeda and T. Colonius (2019) Journal of Fluid Mechanics, Vol. 862, pp. 1105-1134 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2018c.pdf">
-        K. Maeda and T. Colonius (2018) Journal of Computational Physics, Vol. 371, pp. 994-1017 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/MengColonius2018.pdf">
-        J. C. Meng and T. Colonius (2018) Journal of Fluid Mechanics,  Vol. 835, pp. 1108-1135 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/MaedaColonius2017.pdf">
-        K. Maeda and T. Colonius (2017) Wave Motion, Vol. 75, pp. 36-49 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/MengColonius2015.pdf">
-        J. C. Meng and T. Colonius (2015) Shock Waves, Vol. 25(4), pp. 399-414 
-        </a>
-* <a href="http://colonius.caltech.edu/pdfs/CoralicColonius2014.pdf">
-        V. Coralic and T. Colonius (2014) Journal of Computational Physics, Vol. 274, pp. 95-121 
-        </a>
- 
- 
-Ph.D. Disserations:
-* <a href="https://thesis.library.caltech.edu/11395/">
-        J.-C. Veilleux (2019) Ph.D. thesis, California Institute of Technology
-        </a>
-* <a href="https://thesis.library.caltech.edu/11007/">
-        K. Maeda (2018) Ph.D. thesis, California Institute of Technology 
-        </a>
-* <a href="https://thesis.library.caltech.edu/9764/">
-        J. Meng (2016) Ph.D. thesis, California Institute of Technology
-        </a>
-* <a href="https://thesis.library.caltech.edu/8758/">
-        V. Coralic (2014) Ph.D. thesis, California Institute of Technology
-        </a>
+
+
 
 # Acknowledgements
  
