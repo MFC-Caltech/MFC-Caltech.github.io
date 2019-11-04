@@ -8,8 +8,8 @@ for multi-component, multi-phase, and bubbly flows.
   This is the documentation for the MFC (Multicomponent Flow Code).
   The MFC is a simulation software for multi-component, multi-phase,
   and bubbly flows. MFC was developed at Caltech by a group
-  of post-doctoral scientists and graduate research students
-  under the supervision of Professor Tim Colonius. These contributors 
+  of post-doctoral scientists and graduate students
+  in Professor Tim Colonius's research group. These contributors 
   include:
 * Dr. Spencer Bryngelson
 * Dr. Kevin Schmidmayer
