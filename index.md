@@ -47,10 +47,10 @@ for multi-component, multi-phase, and bubbly flows.
  
   Refereed journal publications:
 * <a href="https://arxiv.org/pdf/1909.11768.pdf">
-        S. H. Bryngelson and T. Colonius (2019) arXiv: 1909.11768
+        S. H. Bryngelson and T. Colonius (2020) arXiv: 1909.11768
         </a>
-* <a href="https://arxiv.org/pdf/1903.08242.pdf">
-        K. Schmidmayer, S. H. Bryngelson, T. Colonius (2019) in press, Journal of Computational Physics, arXiv: 1903.08242
+* <a href="https://www.sciencedirect.com/science/article/pii/S0021999119307855">
+        K. Schmidmayer, S. H. Bryngelson, T. Colonius (2020) Journal of Computational Physics, Vol. 402, 109080
         </a>
 * <a href="http://colonius.caltech.edu/pdfs/BryngelsonSchmidmayerColonius2019.pdf">
         S. H. Bryngelson, K. Schmidmayer, T. Colonius (2019) International Journal of Multiphase Flow, Vol. 115, pp. 137-143
