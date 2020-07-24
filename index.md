@@ -36,8 +36,8 @@ for multi-component, multi-phase, and bubbly flows.
 ## MFC paper
  
   The paper that describes the MFC's capabilities:
-* <a href="https://arxiv.org/pdf/1907.10512.pdf">
-        S. H. Bryngelson, K. Schmidmayer, V. Coralic, K. Maeda, J. Meng, T. Colonius (2019) arXiv: 1907.10512
+* <a href="http://dx.doi.org/https://doi.org/10.1016/j.cpc.2020.107396">
+        S. H. Bryngelson, K. Schmidmayer, V. Coralic, K. Maeda, J. Meng, T. Colonius (2020) Computer Physics Communications 4655, 107396
         </a>
   
 ## Related publications
