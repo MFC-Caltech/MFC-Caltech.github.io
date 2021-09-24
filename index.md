@@ -11,7 +11,7 @@ for multi-component, multi-phase, and bubbly flows.
   of post-doctoral scientists and graduate students
   in Professor Tim Colonius's research group. These contributors 
   include:
-* Dr. Spencer Bryngelson
+* Prof. Spencer Bryngelson
 * Dr. Kevin Schmidmayer
 * Dr. Vedran Coralic
 * Dr. Jomela Meng
@@ -44,7 +44,7 @@ for multi-component, multi-phase, and bubbly flows.
 
 ```
 @article{Bryngelson_2020,
-	title = {MFC: An open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver},
+	title = {{MFC: A}n open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver},
 	author = {Spencer H. Bryngelson and Kevin Schmidmayer and Vedran Coralic and Jomela C. Meng and Kazuki Maeda and Tim Colonius},
 	journal = {Computer Physics Communications},
 	doi = {10.1016/j.cpc.2020.107396},
