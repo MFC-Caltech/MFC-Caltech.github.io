@@ -31,7 +31,7 @@ for multi-component, multi-phase, and bubbly flows.
 ## User's guide
  
   A user's guide is included 
-  <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech/raw/master/doc/MFC_user_guide.pdf">here.</a>
+  <a href="https://github.com/ComputationalFlowPhysics/MFC/raw/master/doc/MFC_user_guide.pdf">here.</a>
  
 ## MFC paper
  
