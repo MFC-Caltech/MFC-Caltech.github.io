@@ -1,23 +1,14 @@
 # Multi-component Flow Code (MFC)
 
-Welcome to the MFC! The MFC is a fully-documented parallel simulation software
-for multi-component, multi-phase, and bubbly flows.
+Welcome to the MFC! 
+MFC is a fully-documented parallel simulation software for multi-component, multi-phase, and bubbly flows.
 
 # Authors
 
-  This is the documentation for the MFC (Multicomponent Flow Code).
-  The MFC is a simulation software for multi-component, multi-phase,
-  and bubbly flows. MFC was developed at Caltech by a group
-  of post-doctoral scientists and graduate students
-  in Professor Tim Colonius's research group. These contributors 
-  include:
-* Prof. Spencer Bryngelson
-* Dr. Kevin Schmidmayer
-* Dr. Vedran Coralic
-* Dr. Jomela Meng
-* Dr. Kazuki Maeda  
-  and their contact information is located in the `AUTHORS` file in the source code.
- 
+This is the documentation for the MFC (Multicomponent Flow Code).
+The MFC is a simulation software for multi-component, multi-phase, and bubbly flows. 
+MFC was first developed by the Colonius research group at Caltech.
+Now it is developed and maintained by the groups of Professors <a href="https://colonius.caltech.edu/">Tim Colonius</a>, the <a href="https://comp-physics.group">Spencer Bryngelson</a>, and <a href="https://vivo.brown.edu/display/mrodri97">Mauro Rodriguez</a>.
 
 # Documentation
  
@@ -60,7 +51,7 @@ for multi-component, multi-phase, and bubbly flows.
   Several publications have used the MFC in various stages of its 
   development. A partial list is included here.
  
-  Refereed journal publications:
+  Select refereed journal publications:
 * <a href="https://asa.scitation.org/doi/full/10.1121/10.0000746">
         S. H. Bryngelson and T. Colonius (2020) Journal of the Acoustical Society of America, Vol. 147, pp. 1126-1135
         </a>
